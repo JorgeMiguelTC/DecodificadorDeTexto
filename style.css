@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #22300B;
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #E0E0E0;
+}
+
+.main {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #E0E0E0;
+}
+
+
+.titulo {
+  padding: 15px;
+  width: 50vw;
+  margin: auto;
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+  background-color: #3D4D1D;
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  flex-direction: column; 
+}
+
+.btn {
+  border: 0;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+  background-color: #556B2F; 
+  color: #E0E0E0;
+  cursor: pointer;
+  font-family: "Gideon Roman", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #E0E0E0;
+  width: 100%;
+
+}
+
+.text-input {
+  border-radius: 1em;
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 90px;
+  color: #E0E0E0;
+  background-color: #3D4D1D; 
+  border: 1px solid #556B2F;
+  resize: none;
+}
+
+.rodape {
+  
+  text-align: center;
+  
+}
+
+.rodape_intro {
+  color: #E0E0E0;
+  text-decoration: none;
+  font-family: "Gideon Roman", serif;
+  font-weight: 600;
+  font-style: normal;
+  width: 100%;
+}
